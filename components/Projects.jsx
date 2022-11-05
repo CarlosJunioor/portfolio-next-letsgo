@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import propertyImg from '../public/assets/projects/property.png';
+import cryptoImg from '../public/assets/projects/crypto.png'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -17,32 +17,19 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Varona Esports'
             backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            projectUrl='https://varonaesports.vercel.app/'
+            tech='React JS / Bootstrap'
           />
           <ProjectItem
-            title='Crypto App'
+            title='SouJunior Report Page (on production)'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            projectUrl='https://github.com/CarlosJunioor/linkedin-frontend'
+            tech='React JS / Tailwind'
 
           />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />
+          
         </div>
       </div>
     </div>

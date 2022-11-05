@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/about.png';
 
 const About = () => {
   return (
@@ -23,12 +23,10 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          Im currently doing a career shift from Salesperson to Frontend Development!
+I've been learning Web Development for 6 months and it has really grown on me! It has become my passion to develop cool-looking websites that people love to use.
+SouJunior is Open-Source project that have 16.000 followers on LinkedIn and with 30 people at least working on the project.
+Passionate about Web3 and NFT's
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
