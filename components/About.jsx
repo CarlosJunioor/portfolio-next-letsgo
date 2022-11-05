@@ -24,12 +24,12 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600">
             Im currently doing a career shift from Salesperson to Frontend
-            Development! I've been learning Web Development for 6 months and it
+            Development! Ive been learning Web Development for 6 months and it
             has really grown on me! It has become my passion to develop
             cool-looking websites that people love to use. SouJunior is
             Open-Source project that have 16.000 followers on LinkedIn and with
             30 people at least working on the project. Passionate about Web3 and
-            NFT's
+            NFTs
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
